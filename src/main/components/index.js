@@ -1,0 +1,5 @@
+export * from './Intro'
+export * from './About'
+export * from './Tech'
+export * from './Education'
+export * from './Contact'
