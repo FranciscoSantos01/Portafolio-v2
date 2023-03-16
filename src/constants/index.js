@@ -65,7 +65,7 @@ const Educations = [
     iconBg: 'white',
     date: "November 2022 - March 2023",
     points: [
-       "React de Cero a Experto: Hooks y MERN",
+       "React Zero to Expert: Hooks & MERN",
        
     ],
   },

@@ -32,11 +32,11 @@ const ProjectCard = ({name,img,description,responsibility,link})=>{
 export const Projects = () => {
   return (
     <>
-    <div className='mt-12 sm:mx-20' >
+    <div className='mt-12 sm:mx-20 p-3 sm:p-0' >
       <p className='text-gray-500 font-medium text-3xl'>My Projects</p>
       <h2 className='text-white font-bold text-7xl'>Projects</h2>
     </div>
-    <div className='w-full flex sm:mx-20'>
+    <div className='w-full flex sm:mx-20 p-3 sm:p-0'>
       <p  className="text-gray-500 font-medium text-xl w-full sm:max-w-3xl leading-[30px] mt-4 ">
         Following projects showcase my skills and experience throught real world examples.
         Each project is briefly described with links to code repositories and live demos in it
@@ -44,7 +44,7 @@ export const Projects = () => {
         projects effectively 
       </p>
     </div>
-    <div className='mt-20 flex flex-wrap gap-7 sm:mx-20'>
+    <div className='mt-20 flex flex-wrap gap-7 sm:mx-20 p-4 sm:p-0'>
         {projects.map((project, index)=>(
             <ProjectCard {...project} key={index} />
         ))}

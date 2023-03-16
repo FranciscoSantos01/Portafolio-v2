@@ -5,7 +5,7 @@ import { AppRouter } from './router/AppRouter'
 export const App = () => {
   return (
     <BrowserRouter>
-    <div className='relative z-0  h-fit w-full ' style={{background: '#0b032d'}} >
+    <div className='relative z-0  h-full w-full ' style={{background: '#0b032d'}} >
       <AppRouter />
     </div>
     </BrowserRouter>
