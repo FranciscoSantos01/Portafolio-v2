@@ -30,7 +30,7 @@ const ServiceCards =  ({title,icon})=>{
 export const About = () => {
   return (
     <>
-    <div className='sm:mx-20 mt-10 p-3 sm:p-0'>
+    <div className=' mt-10 p-3 sm:p-5'>
         <div className='flex justify-between items-center'>
             <div>
             < motion.h3 

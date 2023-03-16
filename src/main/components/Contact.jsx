@@ -6,7 +6,7 @@ import CV from '../../assets/CV.pdf'
 
 export const Contact = () => {
   return (
-    <div className='mt-12 sm:mx-20'>
+    <div className='mt-12 sm:p-5 '>
         <h3 className='text-white font-bold sm:text-7xl text-5xl w-[340px] sm:w-full p-3 sm:p-0  '>Connect with me</h3>
         <div className='flex flex-col justify-center items-center sm:flex-row sm:justify-center mt-10 gap-9'>
           {socials.map((item,index)=>(
