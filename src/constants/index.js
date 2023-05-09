@@ -15,9 +15,10 @@ import Github from '../assets/github.png'
 
 import Gym from '../assets/images/gym1.jpeg'
 import Ecommerce from '../assets/images/ecommerce.png'
-import Encript from '../assets/images/encriptador.png'
-import Tip from '../assets/images/tipapp.webp'
+import Lego from '../assets/lego.png'
+import TicTacToe from '../assets/tic.png'
 import Tracker from '../assets/images/tracker.webp'
+import Food from '../assets/food.png'
 const services = [
     {
       title: "Web Developer",
@@ -46,7 +47,8 @@ const Educations = [
     points: [
        "Web Development",
        "React js",
-       "UX/UI Designer"
+       "UX/UI Designer",
+       "Mobile Application Development: React native"
     ],
   },
   {
@@ -131,18 +133,18 @@ const projects = [
     link:'https://github.com/FranciscoSantos01/proyecto_final_coder_react'
   },
   {
-    name:'Encrypter',
-    img: Encript,
-    description: 'Web page where you can Encrypt and decrypt you messages, so you and your friend can communicate in a more private way',
-    tech:['javascript','hmtl', 'css3'],
-    link:'https://github.com/FranciscoSantos01/Alura_Challenges'
+    name:'Quiz App',
+    img: Lego,
+    description: 'Web page where you can practice your react knowledge',
+    tech:['React','hmtl', 'css3','zustand'],
+    link:'https://github.com/FranciscoSantos01/React-Quizz-App'
   },
   {
-    name:'Tip Calculator',
-    img: Tip,
-    description: 'Web page where you can calculate how much is the tip that you should give',
-    tech:['javascript','hmtl', 'css3'],
-    link:'https://github.com/FranciscoSantos01/tipApp'
+    name:'Tic Tac Toe',
+    img: TicTacToe,
+    description: 'Web page where you can play the famous tic tac toe',
+    tech:['React','hmtl', 'css3'],
+    link:'https://github.com/FranciscoSantos01/Tic-tac-toe-React'
   },
   {
     name:'Tracker App',
@@ -160,11 +162,18 @@ const projects = [
     link:'https://github.com/No-Country/c7-38-m-reactnative'
   },
   {
+    name:'Food app',
+    img: Food,
+    description: 'Mobile App where you can order food',
+    tech:['React native','Firebase', 'Redux'],
+    link:'https://github.com/FranciscoSantos01/FoodApp'
+  },
+  {
     name:'Pro-Grama',
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbW5LV5QOyD_ApPLdF-Y_lSncx7EzgxepunA&usqp=CAU",
     description: 'Web application that offers a wide variety of programming courses in different languages and levels, from beginner to advanced.',
     responsibility: "Login & register, Folder structure of the project, general routing of the web page, profile section" ,
-    tech:['React native','mongo', 'nodejs'],
+    tech:['React js','mongo', 'nodejs'],
     link:'https://github.com/No-Country/s6-02-m-java-react'
   },
 
