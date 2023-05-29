@@ -130,7 +130,7 @@ const projects = [
     img:Ecommerce,
     description: 'E-commerce that allows users to buy clothes such as t-shirts, hoodies and trousers.',
     tech:['reactjs','firebase', 'boostrap'],
-    link:'https://github.com/FranciscoSantos01/proyecto_final_coder_react'
+    link:'https://github.com/FranciscoSantos01/React-CODER'
   },
   {
     name:'Quiz App',
