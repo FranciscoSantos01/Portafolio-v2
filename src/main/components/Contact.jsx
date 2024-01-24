@@ -2,7 +2,7 @@ import React from 'react'
 import { socials } from '../../constants'
 import Download from '../../assets/download.png'
 import {motion} from 'framer-motion'
-import CV from '../../assets/CV.pdf'
+import CV from '../../assets/FranciscoSantosCv.pdf'
 
 export const Contact = () => {
   return (
